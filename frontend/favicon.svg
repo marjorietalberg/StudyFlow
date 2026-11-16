@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f5f3ff" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#c4b5fd" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded Squircle Base -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)" />
+  
+  <!-- Subtle border glow -->
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="none" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="2" />
+  
+  <!-- Graduation Cap Rhombus (Top) -->
+  <polygon points="32,14 54,25 32,36 10,25" fill="url(#capGrad)" />
+  
+  <!-- Skull Cap / Headband -->
+  <path d="M18,29.5 L18,39 C18,44 46,44 46,39 L46,29.5" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Tassel / Pingente -->
+  <path d="M47,26.5 L53,35 L53,41" fill="none" stroke="url(#accentGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="53" cy="41" r="2" fill="#c4b5fd" />
+  
+  <!-- Study Flow Waves (dynamic curve at the bottom) -->
+  <path d="M22,48 C28,45 36,52 42,48" fill="none" stroke="#c4b5fd" stroke-width="2.5" stroke-linecap="round" />
+</svg>
