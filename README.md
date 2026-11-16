@@ -306,27 +306,7 @@ tests/test_api.py::test_swagger_documentacao PASSED                      [100%]
 
 ---
 
-## 🤖 8. Declaração Obrigatória de Uso de Inteligência Artificial
-
-> *Conforme os critérios de avaliação acadêmica estipulados para a nota formativa N4, segue a discriminação transparente da utilização de ferramentas de Inteligência Artificial durante o desenvolvimento do projeto:*
-
-### Percentual Efetivo de Uso de IA: **35%**
-
-### Discriminação das Atividades:
-- **Autoria do Estudante (65%):**
-  - Definição da regra de negócio acadêmica e modelagem do banco de dados relacional (Usuários, Disciplinas e Atividades).
-  - Arquitetura da aplicação em camadas desacopladas (`models/`, `routes/`, `database/`, `frontend/`, `tests/`).
-  - Lógica de integração e consumo da API REST via biblioteca `requests` no frontend Gradio.
-  - Testes manuais na interface, validação dos fluxos responsivos e parametrização dos cenários de teste automatizados.
-  - Implementação do algoritmo ponderado de prioridade e lógica do cronograma mensal.
-- **Apoio de Inteligência Artificial (35%):**
-  - Geração das anotações OpenAPI/Swagger docstrings nos endpoints Flask.
-  - Otimização do CSS responsivo para media queries e animações de transição suave.
-  - Apoio no boilerplate dos fixtures de teste automatizado com SQLite in-memory.
-
----
-
-## 📄 9. Licença & Créditos
+## 📄 8. Licença & Créditos
 
 Projeto desenvolvido para fins acadêmicos e educacionais como parte da avaliação de alto rendimento no semestre letivo.
 
